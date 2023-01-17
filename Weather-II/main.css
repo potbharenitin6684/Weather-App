@@ -1,0 +1,124 @@
+*{
+    color: rgb(7, 1, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url('https://images.pexels.com/photos/186980/pexels-photo-186980.jpeg?cs=srgb&dl=pexels-tahir-shaw-186980.jpg&fm=jpg');
+}
+#Para1{
+    color: white;
+}
+#cityInput, #cityName, #inputContainer,button{
+ margin: 3px;
+padding:5px;
+text-align:center;
+font-size:20px;
+font-weight:bold;
+outline: none;
+color: white;
+}
+#cityInput{
+    border: 1px solid skyblue;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px; 
+}
+button{
+    border-radius: 10px;
+    margin-left: 90px;
+    width: 150px;
+    outline:none;
+    border: 1px solid skyblue;
+    color: black;
+}
+button:hover{
+    border: 1px solid green;
+    color: gray;
+
+}
+#cityName{
+    margin-left: 90px;
+}
+#weatherContainer{
+    
+    position: absolute; 
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 320px;
+    width: 1300px;
+    border: 5px solid white;    
+    border-radius: 10px;
+}
+
+#iconsContainer{
+    display: flex;
+    position: absolute; 
+     top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 270px;
+    width: 1250px;    
+    /* border: 5px solid rgb(31, 82, 82);     */
+    border-radius: 10px;
+}
+
+.icons{
+    display: inline-bock;
+    float: left;
+    height: 240px;
+    width: 200px;
+    margin: 20px;
+    border: 5px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+.image{
+    height: 140px;
+    width: 100%;
+}
+
+.imgClass{
+    height: 140px;
+    width: 100%;
+}
+
+.weather{
+    margin: 5px;
+   /*  background-color: rgb(106, 215, 255); */
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+
+}
+
+.minValues{
+    display: inline-block;
+    border-radius: 5px;
+    height: 25px;
+    width: 85px;
+    margin: 0;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    text-align: center;
+    color: white;
+
+}
+
+
+.maxValues{
+    display: inline-block;
+    border-radius: 5px;
+    height: 25px;
+    width: 85px;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    text-align: center;
+    color: white;
+
+}
